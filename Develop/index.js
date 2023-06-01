@@ -5,7 +5,7 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 // TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
-    name: 'Repo Title',
+    name: 'title',
     message: 'What is the Title of the repository ',
 },
     {
@@ -20,13 +20,13 @@ const questions = [{
     },
     {
         type: 'input',
-        name: 'repo_Contributor',
-        message: 'Enter the contributor requirements',
+        name: 'usage',
+        message: 'Enter permitted uses of the repo',
     },
     {
         type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username',
+        name: 'repo_Contributor',
+        message: 'Enter the contributor requirements',
     },
     {
         type: 'input',
@@ -39,13 +39,22 @@ const questions = [{
         message: 'Enter your contact Email',
     },];
 
-
+//write data to file and confirm data was written to console
     
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log("Your README was generated with your specifications")
+    );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    // request user specifications with inquirer
+    inquirer.prompt(questions).then((specs) => {
+        writeToFile("./createdFiles/README.md", generateMarkdown(specs));
+    });
+}
 
 // Function call to initialize app
 init();
