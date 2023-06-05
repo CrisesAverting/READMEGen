@@ -10,12 +10,12 @@ const questions = [{
 },
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Describe the purpose of the repository',
     },
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'Enter the installation command for your app to install required packages',
     },
     {
@@ -27,6 +27,17 @@ const questions = [{
         type: 'input',
         name: 'repo_Contributor',
         message: 'Enter the contributor requirements',
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Please select license: ",
+        choices: ["Apache", "BSD V3", "Creative Commons Attribution 4.0", "MIT", "Open Software License 3.0",  "No license"],
+    },
+    {
+        type: 'input',
+        name: 'testing',
+        message: 'Enter instructions for user testing',
     },
     {
         type: 'input',
@@ -52,7 +63,7 @@ function writeToFile(fileName, data) {
 function init() {
     // request user specifications with inquirer
     inquirer.prompt(questions).then((specs) => {
-        writeToFile("./createdFiles/README.md", generateMarkdown(specs));
+        writeToFile("../createdFiles/README.md", generateMarkdown(specs));
     });
 }
 

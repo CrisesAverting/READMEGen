@@ -1,4 +1,5 @@
-# undefined
+# a repo
+![License Badge](https://img.shields.io/badge/License-Apache-blue)
   ## Table of Contents
 
 * [Description](#description)
@@ -7,16 +8,23 @@
 * [Usage](#Usage)
 * [Contributing](#Contributing)
 * [Licence](#license)
-* [Credits](#credits)
 * [Tests](#Tests)
 * [Questions](#Questions)
 
-## Links
 ## Description
+repo things
 ## Installation
+npm -i
 ## Usage
+with attributiopn
 ## Contributing
-## license
-## credits
+The contributing requirments for this repository are: things and stuff
+
+## License
+  License: Apache
+
 ## Tests
+run npm -i
 ## Questions
+GitHub profile: [CrisesAverting](https://github.com/CrisesAverting)
+For addtional questions please email me at nemo4l@gmail.com

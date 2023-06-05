@@ -2,48 +2,56 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   return license !== "No specified license"
-    ? `![License Badge](https://img.shields.io/badge/License-${license}-blue)`: "";
+    ? `![License Badge](https://img.shields.io/badge/License-${license}-blue)`
+    : "";
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return license !== "No specified license" ? "* [License](#licesnse)" : "";
+  return license !== "No specified license" ? "* [License](#license)" : "";
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return license !== "No specified license"
-  ? `## License
-  License: ${licsense}` : "";
+    ? `## License
+  License: ${license}` : "";
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return( 
-  `# ${data.title}
+  return (
+    `# ${data.title}
+${renderLicenseBadge(data.license)}
   ## Table of Contents
 
 * [Description](#description)
 * [Links](#links)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contributing](#Contributing)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
 * [Licence](#license)
-* [Credits](#credits)
-* [Tests](#Tests)
-* [Questions](#Questions)
+* [Tests](#tests)
+* [Questions](#questions)
 
-## Links
 ## Description
+${data.description}
 ## Installation
+${data.installation}
 ## Usage
+${data.usage}
 ## Contributing
-## license
-## credits
+The contributing requirments for this repository are: ${data.repo_Contributor}
+
+${renderLicenseSection(data.license)}
+
 ## Tests
+${data.testing}
 ## Questions
+GitHub profile: [${data.github}](https://github.com/${data.github})
+For addtional questions please email me at ${data.Email}
 `);
 }
 
