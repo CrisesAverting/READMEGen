@@ -1,5 +1,5 @@
 # READMEGenerator
-![License Badge](https://img.shields.io/badge/License-Apache-blue)
+![License Badge](https://img.shields.io/badge/License-MIT-blue)
   ## Table of Contents
 
 * [Description](#description)
@@ -16,12 +16,12 @@ repo things
 ## Installation
 npm -i
 ## Usage
-Generate 
+This code is usuable with correct attribution
 ## Contributing
 The contributing requirments for this repository are: 
 
 ## License
-  License: Apache
+  The license that covers this repo is : MIT
 
 ## Tests
 run test.js
