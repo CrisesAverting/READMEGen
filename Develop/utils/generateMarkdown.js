@@ -17,7 +17,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return license !== "No specified license"
     ? `## License
-  License: ${license}` : "";
+  License: This repo is covered under a ${license}` : "";
 }
 
 // TODO: Create a function to generate markdown for README
