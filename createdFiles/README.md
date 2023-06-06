@@ -1,5 +1,5 @@
-# 1
-![License Badge](https://img.shields.io/badge/License-Apache-blue)
+# ReadmeGenerator
+![License Badge](https://img.shields.io/badge/License-MIT-blue)
   ## Table of Contents
 
 * [Description](#description)
@@ -12,19 +12,20 @@
 * [Questions](#questions)
 
 ## Description
-2
+generates professional readmes in markdown format
 ## Installation
-3
+```npm install```
 ## Usage
-4
+The content is permitted with attribution and with respect to the license agreement
 ## Contributing
-The contributing requirments for this repository are: 5
+The contributing requirments for this repository are: To contrubte please read the license agreement and create a pull request
 
 ## License
-  License: This repo is covered under a Apache
+  License: This repo is covered under a MIT
 
 ## Tests
-7
+```npm test.js```
+
 ## Questions
-GitHub profile: [8](https://github.com/8)
-For addtional questions please email me at 9
+GitHub profile: [CrisesAverting](https://github.com/CrisesAverting)
+For addtional questions please email me at nemo4l@gmail.com

@@ -39,7 +39,11 @@ ${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
 ## Installation
-${data.installation}
+` +
+    "```" +
+    `${data.installation}` +
+    "```" +
+    `
 ## Usage
 ${data.usage}
 ## Contributing
@@ -48,7 +52,12 @@ The contributing requirments for this repository are: ${data.repo_Contributor}
 ${renderLicenseSection(data.license)}
 
 ## Tests
-${data.testing}
+` +
+    "```" +
+    `${data.testing}` +
+    "```" +
+    `
+
 ## Questions
 GitHub profile: [${data.github}](https://github.com/${data.github})
 For addtional questions please email me at ${data.Email}
