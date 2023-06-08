@@ -12,7 +12,7 @@
 * [Questions](#Questions)
 
 ## Description
-repo things
+This is a repository for a readme geneator
 ## Installation
 npm -i
 ## Usage

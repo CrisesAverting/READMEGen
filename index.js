@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
 function init() {
     // request user specifications with inquirer
     inquirer.prompt(questions).then((specs) => {
-        writeToFile("../createdFiles/README.md", generateMarkdown(specs));
+        writeToFile("./createdFiles/README.md", generateMarkdown(specs));
     });
 }
 

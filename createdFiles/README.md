@@ -1,31 +1,30 @@
-# ReadmeGenerator
+# READMEGenerator
 ![License Badge](https://img.shields.io/badge/License-MIT-blue)
   ## Table of Contents
 
 * [Description](#description)
 * [Links](#links)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
 * [Licence](#license)
-* [Tests](#tests)
-* [Questions](#questions)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 ## Description
-generates professional readmes in markdown format
+This is a repository for a readme geneator
 ## Installation
-```npm install```
+npm -i
 ## Usage
-The content is permitted with attribution and with respect to the license agreement
+This code is usuable with correct attribution
 ## Contributing
-The contributing requirments for this repository are: To contrubte please read the license agreement and create a pull request
+The contributing requirments for this repository are: 
 
 ## License
-  License: This repo is covered under a MIT
+  The license that covers this repo is : MIT
 
 ## Tests
-```npm test.js```
-
+run test.js
 ## Questions
 GitHub profile: [CrisesAverting](https://github.com/CrisesAverting)
 For addtional questions please email me at nemo4l@gmail.com
