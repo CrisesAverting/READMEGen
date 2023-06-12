@@ -16,7 +16,8 @@ This is a repository for a readme geneator
 ## Installation
 npm -i
 ## Usage
-This code is usuable with correct attribution
+walk through video
+https://youtu.be/Ene-waRd0Ts
 ## Contributing
 The contributing requirments for this repository are: 
 
